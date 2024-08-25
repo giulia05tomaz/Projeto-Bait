@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="selection.js"></script>
+</head>
+<body>
+    <section>
+        <div class="comeco">
+            <div class="submenu">
+                <a href="#" class="active" onclick="changeInput('tel', this)">TELEFONE</a>
+                <a href="#" onclick="changeInput('text', this)">MENSAGEM</a>
+                <a href="#" onclick="changeInput('email', this)">EMAIL</a>
+            </div>
+            <div class="input-container">
+                <input type="tel" id="dynamic-input" class="input-arredondado" placeholder="Digite seu telefone">
+                
+                <button class="analisar-btn">Analisar</button>
+            </div>
+           
+            <div class="instrucoes">
+                <div class="instrucao">
+                    <img src="Images/check.png" alt="Ícone de correto">
+                    <span>Digite o número suspeito</span>
+                </div>
+                <div class="instrucao">
+                    <img src="Images/check.png" alt="Ícone de correto">
+                    <span>Digite a mensagem suspeita</span>
+                </div>
+                <div class="instrucao">
+                    <img src="Images/check.png" alt="Ícone de correto">
+                    <span>Envie para análise de nossa IA</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <img src="Images/celular.png" class="celular" alt="Celular">
+
+    <section class="sobre">
+        <div class="sobre-container">
+            <div class="sobre-imagem">
+                <img src="Images/cards.png" alt="Imagem sobre nós">
+            </div>
+            
+            <div class="sobre-texto">
+                <h2>Sobre Nós</h2>
+                <h3>Qual o nosso objetivo?</h3>
+                <p>Bem-vindo ao nosso site, dedicado a proteger usuários de fraudes online e golpes pelo WhatsApp. Nosso objetivo é criar um ambiente seguro onde qualquer pessoa possa verificar a autenticidade de mensagens recebidas e identificar possíveis ameaças.</p>
+                <p>Nossa missão é combater fraudes online utilizando inteligência artificial e técnicas avançadas de análise. Oferecemos aos usuários uma ferramenta eficaz para detectar mensagens fraudulentas e prevenir possíveis problemas.</p>
+            </div>
+        </div>
+    </section>
+
+<div class="cinza">
+    <section class="comofunciona">
+        <div class="sobre-container">
+            <div class="sobre-imagem">
+               
+            <div class="sobre-texto">
+                <h2>Como Funciona?</h2>
+         
+                <ul>
+                    <li>Busca Pública: O usuário insere o número de telefone e a mensagem recebida.</li>
+                    <li>Análise de IA: Nossa inteligência artificial avalia a mensagem e determina a probabilidade de ser fraudulenta.</li>
+                    <li>Resultado: O usuário recebe uma resposta indicando se a mensagem é potencialmente fraudulenta.</li>
+                    <li>Armazenamento de Dados: Números e mensagens são adicionados ao nosso banco de dados para aprimorar futuras detecções.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="nossocompromisso">
+        <div class="compromisso-container">
+            <h2>Nosso Compromisso</h2>
+            <p>Estamos comprometidos em fornecer um serviço confiável e seguro, ajudando a proteger nossos usuários contra fraudes. Continuamos a evoluir e melhorar nossas tecnologias para oferecer a melhor proteção possível.</p>
+            <p>Junte-se a nós nesta luta contra fraudes online e torne sua experiência digital mais segura!</p>
+        </div>
+    </section>
+    </div>
+
+    <section class="oque-fazemos">
+        <div class="fundo-branco">
+            <h2>O que Fazemos?</h2>
+            <div class="servicos-container">
+                <div class="servico">
+                    <img src="Images/1.png" alt="Ícone de detecção">
+                    <h3>Detecção de Fraudes</h3>
+                    <p>Utilizamos IA para analisar e categorizar mensagens recebidas no WhatsApp, determinando a probabilidade de serem fraudulentas.</p>
+                </div>
+                <div class="servico">
+                    <img src="Images/2.png" alt="Ícone de banco de dados">
+                    <h3>Banco de Dados</h3>
+                    <p>Coletamos e armazenamos números e mensagens para alimentar nosso sistema, aprimorando constantemente nossa base de conhecimento.</p>
+                </div>
+                <div class="servico">
+                    <img src="Images/3.png" alt="Ícone de personas iscas">
+                    <h3>Personas Iscas</h3>
+                    <p>Criamos personagens fictícios que interagem com potenciais golpistas para identificar novas táticas e estratégias utilizadas em fraudes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+       
+        <!-- Texto do rodapé -->
+        <div class="footer-txt">
+            <p>O Projeto Bait é essencial para identificar, prevenir e educar sobre fraudes online. Sua abordagem inovadora e proativa protege usuários, melhora a segurança digital e contribui significativamente para a luta contra golpes no WhatsApp e outras plataformas de comunicação.</p>
+        </div>
+        
+        <!-- Conteúdo do rodapé -->
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Inovação Tecnológica</h3>
+                <p>O projeto utiliza tecnologias avançadas como automação, IA e machine learning, contribuindo para o avanço dessas áreas e sua aplicação prática na segurança digital.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#">Termos e Condições</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Inscreva-se</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Direitos reservados -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 Todos os direitos reservados ao Projeto Bait</p>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
