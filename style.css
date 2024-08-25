@@ -294,7 +294,9 @@ body {
 }
 
 .footer {
-  background-color: #1a1a1a;
+  background-image: url('Images/Footer.png');
+  background-size: cover;
+  background-position: center;
   color: #fff;
   padding: 50px 20px;
   text-align: center;
@@ -392,7 +394,7 @@ body {
 
 .footer-section p {
   font-size: 16px;
-  color: #cccccc;
+  color: #ffffff;
   line-height: 1.6;
 }
 
@@ -422,5 +424,4 @@ body {
   color: #cccccc;
   margin-top: 30px;
 }
-
 
